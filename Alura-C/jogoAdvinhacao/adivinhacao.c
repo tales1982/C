@@ -22,10 +22,21 @@ int main()
         scanf("%d", &chute);
         printf("Seu chute foi %d * \n", chute);
 
-    int maior = chute > numeroSecreto;
-    int acertou = (chute == numeroSecreto);
     
-        if (acertou)
+ 
+
+    int maior = chute > numeroSecreto;
+    int acertou = chute == numeroSecreto;
+    int menor = chute < numeroSecreto;
+
+if (chute < 0){
+        printf("Voçe nao pode digitar numeros negativos \n");
+        i--;
+        continue;
+    }
+
+
+        if (acertou )
         {
             printf("Parabéns você acertou! \n*");
             printf("Jogue de novo para testar se sua sorte continua com você \n*");
