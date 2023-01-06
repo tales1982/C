@@ -1,5 +1,8 @@
 #include <stdio.h>
 // imprimir o cabeçalho do nosso jogo
+
+#define NUMERO_DE_TENTATIVAS 5//Declaracao de (const) por padrao sempre tudo maisculo
+
 int main()
 {
     printf("******************************************\n");
@@ -12,24 +15,23 @@ int main()
     
     
 
-    for (int i = 1; i <= 10; i++)
+    for (int i = 1; i <= NUMERO_DE_TENTATIVAS; i++)
     {
-        printf("Tentativa %d ",i);
+        printf("Tentativa %d de  %d ",i, NUMERO_DE_TENTATIVAS);
         printf("Qual é o seu chute? ");
         scanf("%d", &chute);
         printf("Seu chute foi %d * \n", chute);
 
+    int maior = chute > numeroSecreto;
     int acertou = (chute == numeroSecreto);
+    
         if (acertou)
         {
             printf("Parabéns você acertou! \n*");
             printf("Jogue de novo para testar se sua sorte continua com você \n*");
             break;
         }
-        else
-        {
-            int maior = chute > numeroSecreto;
-            if (maior)
+        else if (maior)
             {
                 printf("Sue chute foi maior que o numero secreto! \n");
             }
@@ -37,7 +39,6 @@ int main()
             {
                 printf("Seu chute foi menor que o numero secreto! \n");
             }
-        };
         /* code */
     }
     printf("******Fim de jogo******\n");
