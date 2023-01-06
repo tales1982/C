@@ -6,7 +6,7 @@ int main(){
     printf("******************************************\n");
 
 //variáveis
-    int numeroSecreto = 42;
+    int numeroSecreto = 48;
     int chute;
     
 
@@ -14,7 +14,10 @@ int main(){
     printf("Qual é o seu chute? ");
     scanf("%d",& chute);
     printf("Seu chute foi %d * \n", chute);
+
 int acertou = (chute == numeroSecreto);
+printf("teste chute %d",acertou);
+
     if (acertou){
      printf("Parabéns você acertou! \n*");
      printf("Jogue de novo para testar se sua sorte continua com você *");
