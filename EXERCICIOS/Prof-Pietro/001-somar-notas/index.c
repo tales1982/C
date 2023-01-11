@@ -17,5 +17,5 @@ scanf("%f", &nota4);
 
 float somaNota = nota1 + nota2 + nota3 + nota4 ;
 
-printf("A soma das notas é : %.2f\n",somaNota );
+printf("A soma das notas é: %.2f\n",somaNota );
 }
