@@ -15,14 +15,14 @@ int main()
     fflush(stdin);
 
     printf("Digite seu nome?\n");
-    fgets(name1, 15, stdin);
+    gets(name1);
 
     printf("Qual é seu sexo [M/F]\n");
     sexo1 = getchar(); // usando para char 'a'
 
     printf("Qual sua nota?\n");
     scanf("%f", &note1);
-   
+    getchar();
 
     printf("Cadastrando a segunda pessoa:\n");
     printf("------------------------------\n");
@@ -36,8 +36,9 @@ int main()
 
     printf("Qual sua nota?\n");
     scanf("%f", &note2);
+    getchar();
 
-    printf("Cadastrando a terceira pessoa:\n");
+        printf("Cadastrando a terceira pessoa:\n");
     printf("------------------------------\n");
     fflush(stdin);
 
@@ -49,5 +50,10 @@ int main()
 
     printf("Qual sua nota?\n");
     scanf("%f", &note3);
-    
+
+    printf("==============================\n");
+    printf("LISTAGEM COMPLETA");
+    printf("------------------------------\n");
+    printf("NOME\t\tSEXO\tNOTA\n");
+    printf("%s\t\t%c\t%f",name1,sexo1,note1);
 }
