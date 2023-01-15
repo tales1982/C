@@ -12,10 +12,10 @@ int main(){
     printf("NOME: ");
     fgets(nome1,30,stdin);
     fflush(stdin);
-    printf("SEXO [M/F]: ");
+    printf("SEXO [M/F] : ");
     sexo1 = getchar();
     fflush(stdin);
-    printf("NOTA: ");
+    printf("NOTA : ");
     scanf("%f",&nota1);
     fflush(stdin);
     printf("Cadastrando a segunda pessoa:\n");
@@ -42,10 +42,10 @@ int main(){
     printf("NOTA: ");
     scanf("%f", &nota3);
     fflush(stdin);
+    printf("LISTAGEM COMPLETA");
     printf("------------------------------\n");
-    printf("Nome:%sSexo:%c\nNota:%.2f\n", nome1, sexo1, nota1);
-    printf("------------------------------\n");
-    printf("Nome:%sSexo:%c\nNota:%.2f\n", nome2, sexo2,nota2);
-    printf("------------------------------\n");
-    printf("Nome:%sSexo:%c\nNota:%.2f\n", nome3, sexo3, nota3);
+   printf("NOME\t\tSEXO\tNOTA\n");
+   printf("%s\t\t%c\t%.2f\n",nome1,sexo1,nota1);
+   printf("%s\t\t%c\t%.2f\n", nome2, sexo2, nota2);
+   printf("%s\t\t%c\t%.2f\n", nome3, sexo3, nota3);
 }
