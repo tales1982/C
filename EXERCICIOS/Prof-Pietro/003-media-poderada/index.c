@@ -3,7 +3,9 @@
 
 int main(){
     setlocale(LC_ALL,"Portuguese");
-    
+    int nota1,nota2,nota3
+    int peso1,peso2,peso3;
+    int (float)n
 }
 
 
