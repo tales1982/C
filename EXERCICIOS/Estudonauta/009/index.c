@@ -10,5 +10,5 @@ int main(){
     char ant = letra -1;
     //char suc = letra +1;
     printf("O antecessor de (%c) é (%c)\n",letra,ant);
-    printf("O sucessor de (%c) é (%c)\n",letra,(letra + 1));//posso fazer assim tabem
+    printf("O sucessor de (%c) é (%c)\n",letra,(letra + 1));//posso fazer assim também.
 }
