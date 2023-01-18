@@ -13,10 +13,10 @@ int main(){
     printf("Digite sua 1° nota\n");
     scanf("%f",&nota1);
     fflush(stdin);
-    printf("Digite sua 2° nota");
+    printf("Digite sua 2° nota\n");
     scanf("%f",&nota2);
     fflush(stdin);
-    printf("Digite sua 3° nota");
+    printf("Digite sua 3° nota\n");
     scanf("%f",&nota3);
     media = (nota1 + nota2 + nota3) / 3;
 
