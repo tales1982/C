@@ -26,7 +26,7 @@ if(media > 7){
 {
     printf("Ola %s, sua media foi de %.2f.\nVoce esta de Recuperaçao!!\n",nome,media);
 }else{
-    printf("Ola %s, sua media foi de %.2f.\nVoce esta Reprovado!!\n");
+    printf("Ola %s, sua media foi de %.2f.\nVoce esta Reprovado!!\n",nome,media);
 }
 
     
