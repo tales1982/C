@@ -6,23 +6,15 @@
 
 #include <stdio.h>
 
-int main( vazio )
+int main( )
 {
   int    ch;
   char   buf[BUFSIZ];
-  
-  puts( "Liberando entrada" );
-  
   while ((ch = getchar()) != '\n' && ch != EOF);
-  
-  printf( "Digite algum texto: " );
-  
   if (fgets(buf, sizeof (buf), stdin))
   {
-    printf( "Você digitou: %s" , buf);
   }
-  
-  retorna  0 ;
+  return 0 ;
 }
 
 /*
@@ -32,4 +24,4 @@ int main( vazio )
  Blá blá blá blá
  Digite algum texto: olá
  Você digitou: olá
- *
+ */
