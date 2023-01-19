@@ -7,7 +7,7 @@ int main(){
     float salario, reajuste,salarioFinal;
     
     fflush(stdin);
-    printf("CALCULO DE REAJUSTE SALARIAL\n");
+    printf("CALCULO DE REAJUSTE SALARIAL.\n");
     printf("------------------------------------\n");
     printf("Digite o seu salario?\n");
     scanf("%f",&salario);
