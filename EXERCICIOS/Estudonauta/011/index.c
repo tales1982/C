@@ -14,9 +14,10 @@ int main(){
     printf("Digite o preço do produto\n");
     scanf("%f",&price);
     clearBuffer();
-    
-    float desc = 5 / 100 + price;
-    printf("%2f\n",desc);
+    float desc = (12 / (float)100) * price;
+    finalPrice = price - desc;
+    printf("O %s custava R$ %.2f\n",product,price);
+    printf("Porém com 12%% de desconto, passa a custa R$ %.2f\n",finalPrice);
 }
 
 void clearBuffer(void){
