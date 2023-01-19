@@ -5,25 +5,25 @@ int main(){
     setlocale(LC_ALL,"Portuguese");
     float nota1,nota2,nota3,peso1,peso2,peso3 ;
     
-    printf("Digite a 1° nota\n");
+    printf("Digite a 1° nota.\n");
     fflush(stdin);
     scanf("%f",&nota1);
     fflush(stdin);
-    printf("Digite o peso da nota\n");
+    printf("Digite o peso da nota.\n");
     scanf("%f", &peso1);
     fflush(stdin);
 
-    printf("Digite a 2° nota\n");
+    printf("Digite a 2° nota.\n");
     scanf("%f",&nota2);
     fflush(stdin);
-    printf("Digite o peso da nota\n");
+    printf("Digite o peso da nota.\n");
     scanf("%f", &peso2);
     fflush(stdin);
 
-    printf("Digite a 3° nota\n");
+    printf("Digite a 3° nota.\n");
     scanf("%f",&nota3);
     fflush(stdin);
-    printf("Digite o peso da nota\n");
+    printf("Digite o peso da nota.\n");
     scanf("%f", &peso3);
 
   float mediaPoderada = (nota1 * peso1 + nota2*peso2 + nota3*peso3)/(peso1+peso2+peso3);
