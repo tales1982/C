@@ -1,0 +1,5 @@
+Credentials cache: API:613C46F8-D135-4A17-BF53-7B9CB85EFA00
+        Principal: wbertoni@42SP.ORG.BR
+
+  Issued                Expires               Principal
+Nov 19 19:25:46 2019  Nov 20 05:25:47 2019  krbtgt/42SP.ORG.BR@42SP.ORG.BR
