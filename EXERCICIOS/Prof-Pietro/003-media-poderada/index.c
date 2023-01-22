@@ -1,3 +1,6 @@
+/**
+ * Faça um programa que receba tres notas e seus respectivos pesos, calcule e mostre a media ponderada desas notas.
+*/
 #include <stdio.h>
 #include <locale.h>
 
