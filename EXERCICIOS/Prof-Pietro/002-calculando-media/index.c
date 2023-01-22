@@ -1,6 +1,11 @@
+/*
+Faça um programa que receba tres notas, calcule e mostre a media aritimetica entre elas.
+*/
 #include <stdio.h>
+#include <locale.h>
 
 int main(){
+    setlocale(LC_ALL,"Portuguese");
     float notas[3];
     int i;
     float soma;
