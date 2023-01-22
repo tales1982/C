@@ -11,7 +11,7 @@ int main(){
     printf("Digite o segundo valor.\n");
     scanf("%d",&valor2);
     setbuf(stdin,NULL);
-    printf("------ OPERAÇÕES BIT A BIT ------\n");
+    printf("------- OPERAÇÕES BIT A BIT -------\n");
     printf("Calculando %d & %d é igual a %d.\n",valor1, valor2,valor1 & valor2);
     printf("Calculando %d & %d é igual a %d.\n",valor1, valor2,valor1 | valor2);
     printf("Calculando %d & %d é igual a %d.\n",valor1, valor2,valor1 ^ valor2);
