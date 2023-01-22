@@ -1,3 +1,6 @@
+/**faça um programa que receba quatro números inteiros, e calcule e mostre a soma desse numeros.
+ * 
+*/
 #include <stdio.h>
 
 int main(){
