@@ -1,3 +1,7 @@
+/*
+Faça um programa que receba o salário de um funcionário, calcule e mostre o novo salário, sabendo-se que este sofreu um aumento de 25%(funcionário entra o aumento)
+ */
+
 #include <stdio.h>
 #include <locale.h>
 
@@ -21,5 +25,5 @@ int main(){
     printf("Valor do reajuste: %.2f\n",(reajuste/100)*salario);
     salarioFinal = (reajuste/100)*salario + salario;
     printf("Salario reajustado: %.2f\n",salarioFinal);
-    //
+    
 }
