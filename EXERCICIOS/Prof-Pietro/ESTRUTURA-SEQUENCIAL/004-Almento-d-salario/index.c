@@ -12,7 +12,7 @@ int main(){
     
     fflush(stdin);
     printf("CALCULO DE REAJUSTE SALARIAL.\n");
-    printf("------------------------------------\n");
+    printf("-------------------------------------\n");
     printf("Digite o seu salario?\n");
     scanf("%f",&salario);
     fflush(stdin);
