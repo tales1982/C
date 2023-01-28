@@ -8,7 +8,7 @@
 
 int main(){
     float raio,pi = 3.14;
-    printf("Insira o valor do raio:\n");
+    printf("Insira o valor do raio.\n");
     scanf("%f",&raio);
     setbuf(stdin,NULL);
     printf("A área do circulo é de : %.2f\n",(raio * raio) * pi);
