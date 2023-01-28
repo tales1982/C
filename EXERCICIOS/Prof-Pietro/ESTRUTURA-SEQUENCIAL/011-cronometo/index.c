@@ -18,5 +18,5 @@ int main()
     segundos = segundos % 3600;
     minutos = segundos / 60;
     segundos = segundos % 60;
-    printf("%.d Hora e %.d minutos e %d segundos\n", horas, minutos, segundos);
+    printf("%.d Hora e %.d minutos e %d segundos.\n", horas, minutos, segundos);
 }
