@@ -9,7 +9,7 @@ int main(){
     setlocale(LC_ALL,"Portuguese");
     float salarioBase, bonus = 600, imposto = 10;
     
-    printf("Digite seu salario-base mensal.\n");
+    printf("Digite seu salario-base mensal..\n");
     scanf("%f",&salarioBase);
     setbuf(stdin,NULL);
     printf("O seu salario depois dos desconto é de R$ %.2f Reais\n", salarioBase -(imposto / 100 * salarioBase ));
