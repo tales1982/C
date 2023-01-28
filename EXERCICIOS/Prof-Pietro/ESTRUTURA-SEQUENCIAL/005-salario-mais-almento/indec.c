@@ -6,7 +6,7 @@
 
 int main(){
     float salario, aumento;
-    puts("Digite seu salario base:");//o puts ja vem com a quebra de linha.
+    puts("Digite seu salario base.:");//o puts ja vem com a quebra de linha.
     scanf("%f",&salario);
     setbuf(stdin,NULL);
     puts("Digite quantos \% você quer de aumento.");
