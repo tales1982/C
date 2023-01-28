@@ -20,7 +20,7 @@ int main(){
 	float pes,polegadas = 12, jarda = 3, milha = 5280;
 	printf("Ola qual é seu nome?\n");
 	scanf("%30[^\n]s",nome);
-	printf("Bem vindo %s, Vamos fazer umas conversoes?\n",nome);
+	printf("Bem vindo %s, Vamos fazer umas conversoes.?\n",nome);
 	setbuf(stdin,NULL);
 	printf("Insira a medida em pés.\n");
 	scanf("%f",&pes);
