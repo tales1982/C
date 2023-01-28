@@ -22,7 +22,7 @@ int main(){
 	printf("%s, qual o ano que voce naçeu?\n",nome);
 	scanf("%i",&nacimento);
 	anoAtual = ano_atual->tm_year+1900;
-	printf("%s, voce naçeu no ano de %i, e voce agora tem %i anos.\n",nome, nacimento, anoAtual - nacimento);
+	printf("%s, voce naçeu no ano de %i, e voce agora tem %i anos..\n",nome, nacimento, anoAtual - nacimento);
 	
 
 
