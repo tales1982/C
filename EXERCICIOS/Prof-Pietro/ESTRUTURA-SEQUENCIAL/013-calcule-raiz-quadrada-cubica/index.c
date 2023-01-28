@@ -10,9 +10,9 @@
 int main (){
 setlocale(LC_ALL,"Portuguese");
 double num, qua, cub, quad, rcub;
-printf("============================\n");
+printf("=============================\n");
 printf("<<<<<Insira um numero:>>>>>>\n");
-printf("============================\n");
+printf("=============================\n");
 scanf("%lf",&num);
 setbuf(stdin,NULL);
 qua = pow(num,2);
