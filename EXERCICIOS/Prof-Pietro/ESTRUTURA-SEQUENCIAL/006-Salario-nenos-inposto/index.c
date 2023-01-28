@@ -15,7 +15,7 @@ int main(){
    
     setlocale(LC_ALL,"Portuguese");
     printf("CALCULO DO SALARIAL DEDUZIDO O IMPOSTO.\n");
-    printf("Digite seu salario.\n");
+    printf("Digite seu salario..\n");
     scanf("%f",&salario);
     fflush(stdin);
 
