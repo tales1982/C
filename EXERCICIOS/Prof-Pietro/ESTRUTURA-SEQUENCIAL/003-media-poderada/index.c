@@ -16,7 +16,7 @@ int main(){
     scanf("%f", &peso1);
     fflush(stdin);
 
-    printf("Digite a 2° nota.\n");
+    printf("Digite a 2° nota..\n");
     scanf("%f",&nota2);
     fflush(stdin);
     printf("Digite o peso da nota.\n");
