@@ -12,7 +12,7 @@ int main(){
     float media; 
 
     for(i=0;i<3;i++){
-    printf("Digite as 3 notas:\n");
+    printf("Digite as trés notas:\n");
     scanf("%f", &notas[i]);
     soma += notas[i];    
     media = soma/3;
