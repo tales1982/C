@@ -12,7 +12,7 @@ int main()
     printf("Insira um valor a sacar:\n");
     scanf("%d",&saque);
     setbuf(stdin,NULL);
-    printf("------------------------\n");
+    printf("--------------------------\n");
     cem = saque / 100;
     saque = saque % 100;
     cinquenta = saque / 50;
