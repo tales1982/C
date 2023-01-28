@@ -10,6 +10,6 @@ int main(){
     scanf("%f",&deposito);
     setbuf(stdin,NULL);
     printf("O valor do seu deposito é de R$ %.2f Reais.",deposito);
-    printf("Você teve um rendimento de %.2f%% na sua conta.\nSeu saldo atual depois do acréscimo do rendimento mensal é de R$%.2f Reais\n",juros,((juros / 100) * deposito) + deposito );
+    printf("Você teve um rendimento de %.2f%% na sua conta.\nSeu saldo atual depois do acréscimo do rendimento mensal é de R$%.2f, Reais\n",juros,((juros / 100) * deposito) + deposito );
 
 }
