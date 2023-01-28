@@ -8,7 +8,7 @@ int main(){
     setlocale(LC_ALL,"Portuguese");
     float base, altura;
 
-    printf("------ Calculando a área de um triangulo ------\n");
+    printf("------- Calculando a área de um triangulo ------\n");
     printf("Insira o valor da Base.\n");
     scanf("%f",&base);
     setbuf(stdin,NULL);
