@@ -11,10 +11,10 @@ int main(void)
 int var_a = 3, var_b = 4;
 if(var_a == var_b)
 {
-printf("As variaveis sao iguais\n");
+printf("As variáveis sao iguais\n");
 }
 else
 {
-printf("As variaveis sao diferentes\n");
+printf("As variáveis sao diferentes\n");
 }
 }
