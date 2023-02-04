@@ -11,7 +11,7 @@
 //================================================================================================================================
 //                                                  Function Prototype   								 
 //                                                  
-void valorWatt();
+
 
 //==================================================================================================================================
 // 						  Function Principal
@@ -22,25 +22,12 @@ void valorWatt();
 int main(void){
 	setlocale(LC_ALL,"Portuguese");
 	 
-	float salario, quillowatts,klWattHora;
 
-	printf("Insira o valor do seu salario minino.\n");
-	scanf("%f",&salario);
-	setbuf(stdin,NULL);
-
-	printf("Quantos quillowatts voce consumiu este meis.\n");
-	scanf("%f",&quillowatts);
-	setbuf(stdin,NULL);
-	
-	valorWatt(salario,quillowatts);	
 	return 0;
 }
 
 //=================================================================================================================================
 // 						development of functions
-void valorWatt(){
-	
-	float watt = 0001 ,salario = 0.0;
-	return salario / watt;
+
 }
 
