@@ -14,3 +14,15 @@ No console, deverá ser impresso “f= 159.15Hz”.
 Exemplo: o usuário entra com 2700, 100E-9 e ‘B’. O cálculo matemático é
 𝜏 = 2700 × 100 × 10−9 = 0,00027𝑠
 No console, deverá ser impresso “t= 0.00027s”.*/
+
+#include <stdio.h>
+
+int main()
+{
+    for ( int i = 0; i < 11; i++)
+    {
+        printf("\n7 x %d = %d\n",i,7 * i);
+    }
+    
+    return 0;
+}
