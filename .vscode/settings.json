@@ -1,3 +1,6 @@
 {
-    "cSpell.language": "pt,pt-BR"
+    "cSpell.language": "pt,pt-BR",
+    "files.associations": {
+        "locale.h": "c"
+    }
 }

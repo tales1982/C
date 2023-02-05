@@ -12,6 +12,7 @@ int main()
 
     int chute;
     int tentativas = 1;
+    
 
     while (1)
     {
