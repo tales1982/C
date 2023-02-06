@@ -10,11 +10,11 @@ int main()
     scanf("%f",&valor);
     setbuf(stdin,NULL);
 
-    printf("\nvocê comprou R$ %.0f na nossa loja.\n",valor);
+    printf("\nvocê comprou R$ %.2f na nossa loja.\n",valor);
 
     if(valor >= 500){
-        double desc = 15;
-        double desconto = desc / 100 * valor; 
+        float desc = 10;
+        float desconto = desc / 100 * valor; 
         printf("\n============ ATENÇÃO ==============\n");
         printf("\nPor fazer mais de R$ %.2f em compras, você vai receber R$ %.2f de desconto.\nO valor a ser pago sera de R$ %.2f.\n",valor,desconto,valor - desconto);
     }else{
