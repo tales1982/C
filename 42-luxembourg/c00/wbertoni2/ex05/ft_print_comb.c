@@ -1,7 +1,7 @@
 
 #include <unistd.h>
 
-void	printnumber(char hundreds, char tens, char ones)
+void	main(char hundreds, char tens, char ones)
 {
 	if (hundreds != tens && tens != ones)
 	{
