@@ -21,7 +21,8 @@ int main()
 {
     for ( int i = 0; i < 11; i++)
     {
-        printf("\n7 x %d = %d\n",i,7 * i);
+        printf("\n1 x %d = %d\n",i,7 * i);
+	printf("\n2 x %d = %d\n",i,6 * i);
     }
     
     return 0;
