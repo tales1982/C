@@ -32,7 +32,7 @@ else if (age > 24 && age <=68)
 }
 else
 {
-    printf("Salut papy !!!");
+    printf("Salut papy !");
 }
 
 return 0;
