@@ -17,7 +17,7 @@ int main(int A, int B)
 
     printf("Os numeros digitado é : %i e %i\nE seu endereço na memoria é A :%X e B :%X\n",A,B,&A,&B);
 
-    if(&A > &B)printf("A é maio: %X\n",&A);else printf("B é maior: %X\n",&B);
+    if(&A > &B)printf("Conteúdo do maior endereço: %d -> A\n",A);else printf("Conteúdo do maior endereço: %d -> B\n",B);
 
     return 0;
 }
