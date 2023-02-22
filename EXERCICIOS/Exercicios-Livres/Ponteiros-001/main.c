@@ -40,7 +40,7 @@ int main(void)
     *ponteiro_real = 6.28;
     *Ponteiro_caractere = 'B';
 
-/*============================================================================*/
+/*==========================================================================*/
 
     printf("\n Ponteiro_int : %i, Int: %i\n", *ponteiro_inteiro, inteiro);
     printf(" Ponteiro_float : %.2f, Float: %.2f\n",*ponteiro_real, real);
