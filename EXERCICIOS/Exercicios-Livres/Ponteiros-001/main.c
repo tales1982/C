@@ -42,7 +42,7 @@ int main(void)
 
 /*============================================================================*/
 
-    printf(" Ponteiro_int : %i, Int: %i\n", *ponteiro_inteiro, inteiro);
+    printf("\n Ponteiro_int : %i, Int: %i\n", *ponteiro_inteiro, inteiro);
     printf(" Ponteiro_float : %.2f, Float: %.2f\n",*ponteiro_real, real);
     printf(" Ponteiro_char : %c, Char: %c\n",*ponteiro_real,caractere);
 
