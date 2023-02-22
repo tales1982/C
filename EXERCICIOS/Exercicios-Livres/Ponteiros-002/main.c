@@ -7,18 +7,12 @@ exiba o maior endereço.
 
 int main(void)
 {
- int var, *ptr;
+ int A,B;
 
- var = 5;
- ptr = &var;
- 
+ if(&A > &B){
+    printf("\nO Valor de A = %X, e maior\nque o Valor de B é = %X\n",&A,&B);
+ }else{printf("\nO Valor de B = %X, e maior\n que o Valor de A é = %X\n",&B,&A);}
 
 
-
- printf("%X\n",&var);//endereço na memoria do var
- printf("%X\n",ptr);//o ponteiro esta apontando para o endereço de var
- printf("%X\n",&ptr);//Aqui estou mostrando o endereço do ponteiro
- printf("%X\n",var);//o valor do var
- printf("%X\n",*ptr);//Estou apontando para o VALOR de var(*)
   return(0);
 }
