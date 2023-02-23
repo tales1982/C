@@ -2,7 +2,7 @@
 
 int main()
 {
-    int v[3][4] = {0,0,0,0};
+    int v[3][4] = {0,0,0,0};//[3] tres colunas e [4] linhas {0}todos os valores iniciados em 0
     setbuf(stdin,NULL);
     
     v[2][2] = 45;
