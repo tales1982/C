@@ -1,7 +1,7 @@
 /*
 
  Faça um programa que receba dois números e mostreo maior deles. Caso eles sejam iguais ,
- deve-se mostra a mensagem "Os números sao iguais."
+ deve-se mostra a mensagem "Os números sao iguais..."
 
  * */
 
