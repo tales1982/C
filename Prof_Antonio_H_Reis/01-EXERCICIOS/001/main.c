@@ -1,28 +1,29 @@
 /*
-1° Exercicio
-Escreva um programa que vai apresentar na tela as seguites informacoes,
---> O teu nome
---> na lina de baixo o nome da tua mae
---> na outra linha o nome da tua avó.
+10° Exercicio
+Escreva um programa que leia e armazene a receita e a despesa anual de uma empresa. Calcule o lucro obtido pela empresa.
+Receita --> É todo o dinheiro que entro no caixa da empresa.
+Despesa --> É todo gasto que sai da caixa da empresa.
+Lucro --> É a diferença entre oque saiu eo que entrou(lucro = receita - despesa)
 */
 
 #include<stdio.h>
 
 int main(int argc, char const *argv[])
 {
-    char nome[20], mae[20],avo[20];
+    float receita, despesa;
 
-    printf("Digite o seu nome.\n");
-    gets(nome);
+ printf("Digite o lucro anual da sua empresa.\n");
+ scanf("%f",&receita);
+ setbuf(stdin,NULL);
 
-    printf("Digite o nome da sua mae.\n");
-    gets(mae);
+ printf("Digite a despesa anual da sua empresa.\n");
+ scanf("%f",&despesa);
+ setbuf(stdin,NULL);
 
-    printf("Digite o nome da tua avó\n");
-    gets(avo);
+ printf("O lucro da sua empresa foi de R$ %.2f Mil Reais",receita -despesa);
 
 
-    printf("Seu nome = %s\nNome da sua mae = %s\nNome da sua avó = %s\n",nome,mae,avo);
-    /* code */
+
+
     return 0;
 }
