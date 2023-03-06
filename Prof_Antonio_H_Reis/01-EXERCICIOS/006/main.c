@@ -1,7 +1,7 @@
 /*
- *Escreva um programa que leia 2 números quaisquer.
- Apresentar o resultado do cálculo do maior dividido pelo menor.
- * */
+ * Escreva um programa que leia 2 números quaisquer.
+ * Apresentar o resultado do cálculo do maior dividido pelo menor.
+ */
 
 #include<stdio.h>
 
