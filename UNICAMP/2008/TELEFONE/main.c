@@ -39,3 +39,57 @@ O número de telefone contém entre 1 e 15 caracteres, que podem ser letras de A
 |==============================================
 
 */
+
+
+#include<stdio.h>
+
+int main(int argc, char *argv[])
+{
+  char num_tel[16],ponto;
+
+  int numero;
+
+  printf("Digite uma frase para converter para numero de telefone\n");
+  fgets(num_tel,15,stdin);
+
+  for(int i = 0;i < num_tel[i];i++){
+
+    if(num_tel[i] == 'a' || num_tel[i] == 'b' || num_tel[i] == 'c'){
+      numero = 2;
+     printf("%i",numero);
+    }else if(num_tel[i] == 'd' || num_tel[i] == 'e' || num_tel[i] == 'f' ){
+      numero = 3;
+      printf("%i",numero);
+    }else if(num_tel[i] == 'g' || num_tel[i]  == 'h' || num_tel[i] == 'i'){
+      numero = 4;
+     printf("%i",numero);
+    }else if(num_tel[i] == 'j' || num_tel[i] == 'k' || num_tel[i] == 'l' ){
+      numero = 5;
+    printf("%i",numero);
+    }else if(num_tel[i] == 'm' || num_tel[i]  == 'n' || num_tel[i] == 'o'){
+      numero = 6;
+    printf("%i",numero);
+    }else if(num_tel[i] == 'p' || num_tel[i] == 'q' || num_tel[i] == 'r' || num_tel[i] == 's' ){
+      numero = 7;
+    printf("%i",numero);
+    }else if(num_tel[i] == 't' || num_tel[i]  == 'u' || num_tel[i] == 'v'){
+      numero = 8;
+    printf("%i",numero);
+    }else if(num_tel[i] == 'w' || num_tel[i] == 'x' || num_tel[i] == 'y' || num_tel[i] == 'z' ){
+      numero = 9;
+    printf("%i",numero);
+    }else if(num_tel[i] == '-'){
+      ponto = '-';
+      printf("%c",ponto);
+    }else if(num_tel[i] == '1'){
+      numero = 1;
+      printf("%i",numero);
+    };
+   
+  };
+
+
+
+
+  return 0;
+}
