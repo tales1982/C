@@ -21,7 +21,7 @@ int op;
   scanf("%lf",&altura);
   setbuf(stdin,NULL);
 
-  printf("================================\n");
+  printf("==================================\n");
   printf("Escolha uma opcao.\n0) Para calcula o Perimetro.\n1) Para calcula a Area.\n");
   scanf("%i",&op);
 
