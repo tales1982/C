@@ -1,6 +1,6 @@
 /*
  * Escreva um programa que leia o salário bruto de um fucionário.
- * Calcule o desconto do INSS baseado nas informacoes seguintes.
+ * Calcule o desconto do INSS baseado nas informacoes seguintes..
  *
  * SALARIO                                       TAXA DO INSS
  * ------------------------------------------------------------------
