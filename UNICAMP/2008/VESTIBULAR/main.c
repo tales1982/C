@@ -52,3 +52,30 @@ Exemplos
 
 
 */
+
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    int n, acertos = 0;
+    char gabarito[81], respostas[81];
+
+    printf("Indique os numero de questoes.\n");
+    scanf("%d", &n);
+
+    printf("Indique as resposta corretas.\n");
+    scanf("%s", &gabarito);
+
+    printf("Agora indique suas respostas\n");
+    scanf("%s", &respostas);
+
+    for (int i = 0; i < n; i++) {
+        if (gabarito[i] == respostas[i]) {
+            acertos++;
+        }
+    }
+    printf("Voce acertou %d questoes\n", acertos);
+    return 0;
+}
+
