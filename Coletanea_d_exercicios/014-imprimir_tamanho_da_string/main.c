@@ -24,6 +24,6 @@ int main(int argc, char *argv[])
 //  printf("Tamanho 1 = %i\n",tam1);
  // printf("Tamanho 2 = %i\n",tam2);
 /*terstedsakljdsefjgklöglösdfk,*/
-
+/*sdfsfdsdfdsf*/
   return 0;
 }
