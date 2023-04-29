@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<locale.h>
+void cotacao(void)
+{
+    setlocale(LC_ALL,stdin);
+
+float reais, dolar = 5.10, euro= 5.55, iene = 0.10;
+
+printf("Insira o valor em reais.\n");
+scanf("%f",&reais);
+setbuf(stdin,NULL);
+
+printf("Com esse valor voce pode compra %.2f Dolar\n",reais / dolar);
+printf("Com esse valor voce pode compra %.2f Euros\n",reais / euro);
+printf("Com esse valor voce pode compra %.2f Ienes\n",reais / iene);
+
+}
