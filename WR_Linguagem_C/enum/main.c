@@ -10,6 +10,8 @@ por identificadores
   /*-------------------- definição da enum --------------------------------*/
   enum meses_do_ano {Janeiro = 1, Fevereiro, Marco, Abril, Maio, Junho,
   Julho, Agosto, Setembro, Outubro, Novembro, Dezembro}meses;
+
+  enum Dias {domingo = 1, segunda,terca,quarta,quinta,sexta,sabado }dias;
 /*------------------------------------------------------------------------------*/
 int main(void)
 {
@@ -18,6 +20,10 @@ int main(void)
   setbuf(stdin,NULL);
   //Testando se o valor está na faixa válida usando os valores da enum
   //O enum é um INT seus valores serao sempre inteiros.
+  printf("Digite o numero do dia da semana.\n");
+  scanf("%i",&dias);
+  setbuf(stdin,NULL);
+
   if((meses >= Janeiro) && (meses <= Dezembro))
   {
 
@@ -84,6 +90,32 @@ int main(void)
     //então podemos incrementa-los e usar no loop
     for(meses = Janeiro; meses <= Dezembro; meses++)
       printf("Mes: %d \n",meses);
+  }
+
+  switch (dias) {
+     case 1:
+      printf(" Domingo\n");
+      break;
+    case 2:
+      printf(" Segunda\n",dias);
+      break;
+    case 3:
+      printf(" Terça\n",dias);
+      break;
+    case 4:
+       printf(" Quarta\n",dias);
+      break;
+    case 5:
+ printf(" Quinta\n",dias);
+      break;
+    case 6:
+ printf(" Sexta\n",dias);
+      break;
+    case 7:
+      printf(" Sabado\n",dias);
+      break;
+       default:
+       printf(" Digite um dia valido de 1 a 7\n",dias);
   }
 
   
