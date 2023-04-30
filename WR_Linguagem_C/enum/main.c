@@ -17,6 +17,7 @@ int main(void)
   scanf("%i",&meses);
   setbuf(stdin,NULL);
   //Testando se o valor está na faixa válida usando os valores da enum
+  //O enum é um INT seus valores serao sempre inteiros.
   if((meses >= Janeiro) && (meses <= Dezembro))
   {
 
