@@ -14,6 +14,7 @@
 /*------------------------- MAIN -----------------------------*/
 int main(int argc, char *argv[])
 {
+  
   int sair = 0;
   float bruto = 0.0, porcentagem = 0.0, preco_final = 0.0, preco_com_frete = 0.0;
 
@@ -50,7 +51,7 @@ int main(int argc, char *argv[])
   printf("Pour continuer tapez 1\n");
   scanf("%i",&sair);
   setbuf(stdin,NULL);
-  printf("\n\n\t\t\tDéveloppé par Tales Lima\n\n");
+  printf("\n\n\t\t\tDeveloppe par Tales Lima\n\n");
 
    
   } while (sair != 0);
