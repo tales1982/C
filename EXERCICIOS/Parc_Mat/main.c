@@ -60,5 +60,10 @@ int main(int argc, char *argv[])
   return 0;
 }
 
-/*-------------------- -FUNCTION DECLARATION -----------------*/
+/*--------------------Site pra baixar o gcc no windows -----------------*/
+/*
+ https://jmeubank.github.io/tdm-gcc/
+
+ abre o arquivo main.c no bloco de notas depois compile e salve com o nome Parc_Mat.exe
+*/
 
