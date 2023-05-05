@@ -54,6 +54,8 @@ int main(int argc, char *argv[])
 
    
   } while (sair != 0);
+  
+  system("PAUSE");
   return 0;
 }
 
