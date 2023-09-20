@@ -8,5 +8,6 @@ main(){
 
     printf("Bem vindo ao /Mundo\\ da programacao em \"c\"");
 
+    puts("\nHello Word");
 }
 
