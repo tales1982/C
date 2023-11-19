@@ -1,16 +1,14 @@
 /*
  Faça um algoritimo que lendo 3 números correspondentes aos coeficientes de uma equaçao do 2° grau. Calcule seu delta e imprima as raizes desta equaçao.
  */
-
 #include <stdio.h>
 #include <math.h>
 
 void resolverEquacaoSegundoGrau(float a, float b, float c) {
     float delta = b * b - 4 * a * c;
-    float raizDelta;
 
     if (delta > 0) {
-        raizDelta = sqrt(delta);
+        float raizDelta = sqrt(delta);
         float x1 = (-b + raizDelta) / (2 * a);
         float x2 = (-b - raizDelta) / (2 * a);
         printf("As raízes são x1 = %.2f e x2 = %.2f\n", x1, x2);
@@ -40,4 +38,3 @@ int main() {
 
     return 0;
 }
-
