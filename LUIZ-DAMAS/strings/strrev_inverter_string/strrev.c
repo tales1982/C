@@ -10,6 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 #include <stdio.h>
+/*
+Comando para inverter uma string de tras pra frente.
+*/
 
 char	*strrev(char *s);
 int	string_size(char *s);
