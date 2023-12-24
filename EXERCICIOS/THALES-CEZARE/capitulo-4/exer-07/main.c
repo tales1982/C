@@ -20,7 +20,7 @@ int factorial(int n)
 
 int	main(void)
 {
-	printf("%d",factorial(0));
+	printf("%d",factorial(5));
 	printf("\n");
 	return (0);
 }
