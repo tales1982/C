@@ -4,7 +4,6 @@
  dias desse mês com tremperaturas acima de 30° graus.
  */
 
-
 #include <stdio.h>
 #define	TAM 31
 
