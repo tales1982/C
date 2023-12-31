@@ -1,7 +1,6 @@
 /*
 Escreva um algoritimo que leia um inteiro possitivo e um expoente tambem possitivo e realize o calculo da operacao;
 */
-
 #include<stdio.h>
 
 int main(){
