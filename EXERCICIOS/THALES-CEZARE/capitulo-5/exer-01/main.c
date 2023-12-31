@@ -14,7 +14,6 @@ void	rendimento()
 	i = 0;
 	capital	= 5000;
 	
-	
 	printf("\n\tVoce aplicou R$ 5.000  na poupança durante 1 ano.\n\n");
 	
 	while(i < 12)
