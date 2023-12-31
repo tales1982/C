@@ -1,6 +1,7 @@
 /*
  Faça um algoritimo que lendo 3 números correspondentes aos coeficientes de uma equaçao do 2° grau. Calcule seu delta e imprima as raizes desta equaçao.
  */
+
 #include <stdio.h>
 #include <math.h>
 
