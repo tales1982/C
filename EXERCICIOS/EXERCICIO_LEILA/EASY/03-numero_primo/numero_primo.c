@@ -6,7 +6,7 @@
 /*   By: tales <tales@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/07 14:21:49 by tales             #+#    #+#             */
-/*   Updated: 2024/07/07 18:43:05 by tales            ###   ########.fr       */
+/*   Updated: 2024/07/07 19:19:33 by tales            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -93,10 +93,10 @@ int	is_prime(int num)
 	while (i * i <= num)
 	{
 		if (num % i == 0)
-			return (0); // Encontrou um divisor, não é primo
+			return (0); //Encontrou um divisor, não é primo
 		i += 2;
 	}
-	return (1); // É primo
+	return (1); //É primo
 }
 
 int	main(int ac, char **av)
