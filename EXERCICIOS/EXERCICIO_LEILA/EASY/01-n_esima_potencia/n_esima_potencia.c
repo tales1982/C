@@ -6,7 +6,7 @@
 /*   By: tales <tales@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/07 10:28:44 by tales             #+#    #+#             */
-/*   Updated: 2024/07/07 14:22:00 by tales            ###   ########.fr       */
+/*   Updated: 2024/07/07 19:20:45 by tales            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 Escreva um programa que calcule x ate à n-ésima potência,
 e imprima na tela os numeros seguido de uma quebra de linha,
 se o numero de argumento for diferente de 2, imprima uma quebra de linha
-Funcoes permitidas: write
+Funcoes permitidas: write..
 */
 
 #include <unistd.h>
