@@ -6,14 +6,13 @@
 /*   By: tales <tales@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/07 12:12:07 by tales             #+#    #+#             */
-/*   Updated: 2024/07/07 16:58:26 by tales            ###   ########.fr       */
+/*   Updated: 2024/07/07 19:20:04 by tales            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
 Escreva um programa que calcula para um determinado número inteiro possitivo "n" o valor "n!",
-
-Explicação do Exercício
+Explicação do Exercício.:
 Você precisa escrever um programa que calcula o fatorial de um número inteiro positivo "n".
 O fatorial de um número "n" (denotado como "n!") é o produto de todos os números inteiros positivos de 1 até "n".
 Por exemplo:
