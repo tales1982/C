@@ -19,7 +19,6 @@ Bienvenue dans le référentiel d'exercices C ! Ce référentiel est destiné �
 
 ## Structure du répertoire
 
-/
 |-- Exercicio1/
 | |-- README.md
 | |-- main.c
