@@ -19,4 +19,17 @@ Bienvenue dans le référentiel d'exercices C ! Ce référentiel est destiné �
 
 ## Structure du répertoire
 
+/
+|-- Exercicio1/
+| |-- README.md
+| |-- main.c
+| |-- funcoes.c
+|
+|-- Exercicio2/
+| |-- README.md
+| |-- main.c
+| |-- funcoes.c
+|
+|-- ...
+
 La structure du répertoire du référentiel doit suivre le format suivant :
