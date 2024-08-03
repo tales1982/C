@@ -1,27 +1,22 @@
-# Linguagen C
+# Référentiel d'exercices en C
 
-Bem-vindo ao repositório do MeuProjeto! Este é um aplicativo de linha de comando simples escrito em C.
+Bienvenue dans le référentiel d'exercices C ! Ce référentiel est destiné à stocker et organiser des exercices de programmation en langage C. Vous trouverez ci-dessous les règles et directives des exercices.
 
-## Descrição
+## Règles et directives
 
-Este repositório foi criado para ajudar estudantes e entusiastas a praticar programação em C.
-Os exercícios variam de básicos a avançados e cobrem diversos tópicos, como estrutura de controle, 
-funções, arrays, ponteiros, estruturas, arquivos e muito mais.
+1. **Interdiction des bibliothèques externes :**
+ - Il est **totalement interdit** d'utiliser des bibliothèques externes telles que `atoi`, `itoa`, `strcpy` et similaires.
+ - La seule bibliothèque autorisée est `unistd.h`.
 
+2. **Utilisation de `malloc` et `free` :**
+ - L'utilisation de `malloc` et `free` est autorisée pour l'allocation dynamique de mémoire.
 
-## Requisitos
+3. **Structure du référentiel :**
+ - Chaque exercice doit être dans son propre répertoire.
+ - Le répertoire doit contenir :
+ - Un fichier `README.md` avec la description de l'exercice.
+ - Un ou plusieurs fichiers `.c` avec la mise en œuvre de l'exercice.
 
-Para compilar e executar este projeto, você precisará de:
+## Structure du répertoire
 
-- Um compilador C (por exemplo, `gcc` ou `cc`)
-- Um sistema operacional compatível (Linux, macOS, Windows com MinGW, etc.)
-
-## Instalação
-
-Siga os passos abaixo para instalar e executar o MeuProjeto:
-
-1. Clone o repositório:
-
-   ```sh
-   git clone https://github.com/tales1982/C
-   cd C
+La structure du répertoire du référentiel doit suivre le format suivant :
