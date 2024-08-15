@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   int main.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tlima-de <tlima-de@student.42.fr>          +#+  +:+       +#+        */
+/*   By: tales <tales@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/14 11:43:33 by tlima-de          #+#    #+#             */
-/*   Updated: 2024/08/14 13:41:54 by tlima-de         ###   ########.fr       */
+/*   Updated: 2024/08/14 15:34:44 by tales            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,13 +19,13 @@
 pthread_mutex_t soma_total = PTHREAD_MUTEX_INITIALIZER;
 
 typedef struct {
-    int* array;
+    int *array;
     int inicio;
     int fim;
     int resultado;
 } SomaArgs;
 
-void* soma(void* arg)
+void* soma(void *arg)
 {
     SomaArgs* args = (SomaArgs*)arg;
     int temp_res = 0;

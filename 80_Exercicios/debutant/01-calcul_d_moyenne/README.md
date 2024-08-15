@@ -1,5 +1,5 @@
 Assignment name  : 01-calc_d_moyenne
-Expected files   : 01-calc_d_moyenne.c
+Expected files   : calc_d_moyenne.c
 Allowed functions: printf, atoi
 
 # Português:
