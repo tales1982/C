@@ -6,7 +6,7 @@
 /*   By: tales <tales@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/14 21:29:56 by tales             #+#    #+#             */
-/*   Updated: 2024/08/15 17:26:41 by tales            ###   ########.fr       */
+/*   Updated: 2024/08/16 20:31:01 by tales            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,47 +22,34 @@ Cada thread deve imprimir uma mensagem identificando-se.
 #include <stdlib.h>
 #include <unistd.h>
 
-#define TAM 3
-
-void *tareva1(void *arg)
+void *dormi(void *arg)
 {
-    char *nome = (char *)arg;
-    printf("Thread %s: Levanta\n", nome);
-    sleep(1);
+    pthread_t thread_id = pthread_self(); // Obter o ID da thread atual
+    printf("Thread ID: %lu - Vai Dormir\n", thread_id);
+    usleep(100000);
     return NULL;
 }
 
-void *tareva2(void *arg)
+void *comer(void *arg)
 {
-    char *nome = (char *)arg;
-    printf("Thread %s: Andar\n", nome);
-    sleep(1);
-    return NULL;
-}
-
-void *tareva3(void *arg)
-{
-    char *nome = (char *)arg;
-    printf("Thread %s: Dormi\n", nome);
-    sleep(1);
+    pthread_t thread_id = pthread_self(); // Obter o ID da thread atual
+    printf("Thread ID: %lu - Vai Comer\n", thread_id);
+    usleep(100000);
     return NULL;
 }
 
 int main(void)
 {
-    pthread_t minhas_threads[3];
-    char *nomes[] = {"TALES", "THEO", "THOMAS"};
+    pthread_t id[2];
 
-    for (int i = 0; i < TAM; i++)
-    {
-        pthread_create(&minhas_threads[i], NULL, tareva1, (void *)nomes[i]);
-        pthread_create(&minhas_threads[i], NULL, tareva2, (void *)nomes[i]);
-        pthread_create(&minhas_threads[i], NULL, tareva3, (void *)nomes[i]);
-    }
+    // Criação das threads
+    pthread_create(&id[0], NULL, dormi, NULL);
+    pthread_create(&id[1], NULL, comer, NULL);
 
-    for (int i = 0; i < TAM; i++)
-    {
-        pthread_join(minhas_threads[i], NULL);
-    }
+    // Espera as threads terminarem
+    pthread_join(id[0], NULL);
+    pthread_join(id[1], NULL);
+
     return 0;
 }
+
