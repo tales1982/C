@@ -1,0 +1,12 @@
+## 01° first_word
+## 02° fizzbuzz
+## 03° ft_putstr
+## 04° ft_strcpy
+## 05° ft_strlen
+## 06° ft_swap
+## 07° repeat_alpha
+## 08° rev_print
+## 09° rot_13
+## 10° rotone
+## 11° search_and_replace
+## 12° ulstr
